@@ -198,3 +198,5 @@ strHTMLBody = '''
         </html>'''
 strHTML4Index = strHTMLBody.format(name=strBlogName, page=str(blog_amount), index=strHTML4Index, time=strTimestamp)
 write_file(kBlogDir + "/index.html", strHTML4Index)
+
+# testing
